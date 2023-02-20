@@ -1,0 +1,60 @@
+body {
+  display: center;
+  padding: 20px 100px 20px 100px;
+  background-color: rgb(243, 240, 241);
+}
+
+h1 {
+  color: rgb(58, 88, 185);
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  font-size: 34px;
+  line-height: 48px;
+}
+
+h2,
+h3 {
+  text-align: center;
+  color: rgb(78, 79, 151);
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+  color: purple;
+}
+
+.card-text {
+  text-align: center;
+  color: purple;
+}
+
+.container {
+  background-color: rgb(233, 229, 248);
+  padding: 10px 10px;
+  padding-inline: 10px;
+  border-radius: 15px;
+  border-radius: 25px;
+  border: 2px solid #61f1e5;
+}
+
+.cloud-icon {
+  color: rgb(98, 98, 211);
+  display: block;
+  margin: 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+card-color {
+  color: blue;
+}
+
+.units {
+  text-align: center;
+}
