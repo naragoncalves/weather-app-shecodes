@@ -25,6 +25,11 @@ h5 {
   color: purple;
 }
 
+p {
+  text-align: center;
+  color: purple;
+}
+
 .card-text {
   text-align: center;
   color: purple;
@@ -57,4 +62,17 @@ card-color {
 
 .units {
   text-align: center;
+}
+
+button {
+  border-color: rgb(204, 167, 192);
+  background-color: antiquewhite;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+div {
+  text-align: center;
+  display: block;
+  margin: 0;
 }
