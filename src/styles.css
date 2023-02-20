@@ -1,11 +1,18 @@
 body {
   display: center;
-  padding: 20px 100px 20px 100px;
-  background-color: rgb(243, 240, 241);
+  margin: 0;
+  padding: 20px 90px 20px 90px;
+  background: linear-gradient(
+    44.8deg,
+    rgba(255, 136, 102, 0.67) -53.1%,
+    rgba(255, 221, 136, 0.28) 49%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 h1 {
-  color: rgb(58, 88, 185);
+  color: #6c476e;
   text-align: center;
   font-weight: 900;
   margin: 0;
@@ -13,10 +20,15 @@ h1 {
   line-height: 48px;
 }
 
-h2,
+h2 {
+  font-size: 20px;
+  text-align: center;
+  color: #a45c5c;
+}
+
 h3 {
   text-align: center;
-  color: rgb(78, 79, 151);
+  color: #a45c5c;
   text-align: center;
 }
 
@@ -36,16 +48,12 @@ p {
 }
 
 .container {
-  background-color: rgb(233, 229, 248);
-  padding: 10px 10px;
-  padding-inline: 10px;
-  border-radius: 15px;
-  border-radius: 25px;
-  border: 2px solid #61f1e5;
+  padding: 15px 15px;
+  padding-inline: 16px;
 }
 
 .cloud-icon {
-  color: rgb(98, 98, 211);
+  color: rgb(100, 18, 100);
   display: block;
   margin: 0;
   font-size: 30px;
@@ -75,4 +83,17 @@ div {
   text-align: center;
   display: block;
   margin: 0;
+}
+
+.card-body {
+  background: linear-gradient(
+    110.5deg,
+    rgba(248, 196, 249, 0.66) 22.8%,
+    rgba(253, 122, 4, 0.15) 64.6%
+  );
+  opacity: 90%;
+}
+
+.temperature {
+  font-size: 90px;
 }
