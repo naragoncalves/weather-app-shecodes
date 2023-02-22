@@ -2,10 +2,10 @@
   max-width: 600px;
   margin: 30px auto;
   font-family: "Archivo", sans-serif;
-  border: 1px solid;
+  border: 1px double;
   border-radius: 5px;
-  border-color: rgb(216, 158, 158);
-  background-color: rgb(245, 236, 244);
+  border-color: rgb(235, 212, 212);
+  background-color: rgb(247, 216, 243);
 }
 
 body {
@@ -70,6 +70,9 @@ li {
   margin: 0;
   margin-top: 0;
 }
+li:first-letter {
+  text-transform: capitalize;
+}
 .card-text {
   text-align: center;
   color: purple;
@@ -88,29 +91,31 @@ li {
   text-align: center;
 }
 
-form {
+.form-style {
   text-align: center;
-}
-
-card-color {
-  color: blue;
+  width: 100%;
+  border: 2px;
+  border-color: white;
 }
 
 .units {
   text-align: center;
+  font-size: 20px;
 }
 
 .button-style {
-  border-color: rgb(243, 231, 237);
+  border-color: rgb(128, 122, 168);
   background-color: rgb(150, 171, 216);
   font-size: 15px;
+  color: white;
   border-radius: 8px;
 }
 
 .submit-button {
-  border-color: rgb(248, 246, 247);
+  border-color: rgb(110, 187, 107);
   background-color: rgb(157, 199, 151);
   font-size: 15px;
+  color: white;
   border-radius: 8px;
 }
 
@@ -131,4 +136,10 @@ div {
 
 .temperature {
   font-size: 70px;
+}
+
+.icon {
+  width: auto;
+  margin: 0;
+  padding: 0;
 }

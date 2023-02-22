@@ -41,7 +41,7 @@
       <div class="container">
       <div class="vanilla-weather-app">
     </p>
-    <form id="search-form">
+    <form class="form-style" id="search-form">
       <input
         type="search"
         placeholder="Enter a city"
@@ -58,21 +58,21 @@
         id="location-button"
         class="button-style"
         type="submit"
-        value="current location"
+        value="🌐current location"
       />
     </form>
     <br />
     <h1 id="city">Amsterdam, the Netherlands</h1>
     <h2>formatDate</h2>
     <h3>
-      <span class="temperature" id="temp"></span><span class="units">°C</span>
+      <span class="temperature" id="temp"></span><span class="units">°C | <a href="#"></a>°F</span>
     </h3>
     <div class="row">
           <div class="col-6">
             <div class="d-flex weather-temperature">
             </div>
             </div>
-            <img src="" id="icon" class="float-left"> 
+            <div><img id="icon" src="" alt=""></div>
               <ul>
                 <li id="description"></li>
               <li>Humidity: <span id="humidity"></span><span>%</span></li>
