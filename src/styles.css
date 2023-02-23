@@ -143,3 +143,13 @@ div {
   margin: 0;
   padding: 0;
 }
+
+.active {
+  color: brown;
+  cursor: default;
+  text-decoration: none;
+}
+
+.active:hover {
+  text-decoration: underline;
+}
