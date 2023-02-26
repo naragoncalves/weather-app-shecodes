@@ -2,10 +2,10 @@
   max-width: 600px;
   margin: 30px auto;
   font-family: "Archivo", sans-serif;
-  border: 1px double;
-  border-radius: 5px;
-  border-color: rgb(235, 212, 212);
-  background-color: rgb(243, 229, 241);
+  border: 3px double;
+  border-radius: 25px;
+  border-color: rgb(255, 255, 255);
+  background-color: white;
 }
 
 body {
@@ -13,16 +13,16 @@ body {
   margin: 0;
   padding: 20px 90px 20px 90px;
   background: linear-gradient(
-    44.8deg,
-    rgba(255, 136, 102, 0.67) -53.1%,
-    rgba(255, 221, 136, 0.28) 49%
+    109.6deg,
+    rgb(185, 212, 242) 11.2%,
+    rgb(244, 210, 226) 100.3%
   );
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 h1 {
-  color: #6c476e;
+  color: #5e63b6;
   text-align: center;
   font-weight: 900;
   font-family: "Archivo", sans-serif;
@@ -39,13 +39,13 @@ h2 {
   font-weight: 400;
   font-size: 20px;
   text-align: center;
-  color: #a45c5c;
+  color: #5e63b6;
 }
 
 h3 {
   font-size: 50px;
   text-align: center;
-  color: #a45c5c;
+  color: #a393eb;
   text-align: center;
 }
 
@@ -80,15 +80,15 @@ li:first-letter {
   margin: 30px 0;
   margin-bottom: 5px;
   border: 0px solid;
-  color: purple;
+  color: #d170d4;
 }
 
 .weather-forecast-date {
-  color: #6c476e;
+  color: #5e63b6;
 }
 
 .weather-forecast-temperatures {
-  color: #a45c5c;
+  color: #a393eb;
   font-size: 20px;
 }
 
@@ -99,14 +99,6 @@ li:first-letter {
 
 .weather-forecast-temperature-max {
   font-size: 14px;
-}
-
-.cloud-icon {
-  color: rgb(100, 18, 100);
-  display: block;
-  margin: 0;
-  font-size: 30px;
-  text-align: center;
 }
 
 .form-style {
@@ -154,7 +146,7 @@ div {
 }
 
 .active {
-  color: brown;
+  color: #a393eb;
   cursor: default;
   text-decoration: none;
 }
@@ -164,9 +156,9 @@ div {
 }
 
 .humidity-unit {
-  color: rgb(179, 93, 107);
+  color: #d170d4;
 }
 
 .wind-unit {
-  color: rgb(179, 93, 107);
+  color: #d170d4;
 }
