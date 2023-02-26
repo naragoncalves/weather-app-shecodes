@@ -37,7 +37,7 @@ h2 {
   font-family: "Archivo", sans-serif;
   font-style: regular;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
   color: #5e63b6;
 }
@@ -45,7 +45,7 @@ h2 {
 h3 {
   font-size: 50px;
   text-align: center;
-  color: #a393eb;
+  color: #ad50b9;
   text-align: center;
 }
 
@@ -87,11 +87,6 @@ li:first-letter {
   color: #5e63b6;
 }
 
-.weather-forecast-temperatures {
-  color: #a393eb;
-  font-size: 20px;
-}
-
 .weather-forecast-temperature-min {
   opacity: 0.7;
   font-size: 14px;
@@ -103,8 +98,8 @@ li:first-letter {
 
 .form-style {
   text-align: center;
-  width: 100%;
   border: 2px;
+  border-radius: 8px;
   border-color: white;
 }
 
@@ -114,7 +109,7 @@ li:first-letter {
 }
 
 .button-style {
-  border-color: rgb(128, 122, 168);
+  border-color: rgb(228, 225, 248);
   background-color: rgb(150, 171, 216);
   font-size: 15px;
   color: white;
@@ -122,7 +117,7 @@ li:first-letter {
 }
 
 .submit-button {
-  border-color: rgb(110, 187, 107);
+  border-color: rgb(239, 248, 238);
   background-color: rgb(157, 199, 151);
   font-size: 15px;
   color: white;
@@ -146,7 +141,7 @@ div {
 }
 
 .active {
-  color: #a393eb;
+  color: #ad50b9;
   cursor: default;
   text-decoration: none;
 }
